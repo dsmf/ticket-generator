@@ -1,6 +1,10 @@
 
-Generated via ChatGPT
+The app allows users to select categories, products, and apps via checkboxes to generate a formatted service desk ticket based on their selections.
 
+![screenshot](screenshot.png)
+
+
+Generated via ChatGPT
 
 
 Here’s the detailed prompt that can be used to generate this final web page structure:

@@ -154,14 +154,14 @@ const configuration = [
   
         if (isProductChecked || productHasSelectedApps) {
           categoryHasSelectedProducts = true;
-          categoryDescription += `    Product: ${product.name}\n`; // Product level
+          categoryDescription += `\n    Product: ${product.name}\n`; // Product level
           categoryDescription += formatSnippet(product.snippet) + '\n'; // Product snippet (array)
           categoryDescription += productDescription; // Append app snippets
         }
       });
   
       if (isCategoryChecked || categoryHasSelectedProducts) {
-        ticketDescription += `Category: ${category.category}\n`; // Add category name
+        ticketDescription += `\nCategory: ${category.category}\n`; // Add category name
         ticketDescription += formatSnippet(category.snippet) + '\n'; // Category snippet (array)
         ticketDescription += categoryDescription; // Append product and app descriptions
       }
